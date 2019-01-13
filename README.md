@@ -40,16 +40,16 @@
     * Keras (2.2.4)
     * Matlab (2017a version)
 ## Index :
-* [Data set :](./Graphene_DeepLearning/dataset) (This folder contain the data of Graphene supercells)
+* [Data set :](q145492675/GAN_Graphene/dataset) (This folder contain the data of Graphene supercells)
     * Data
     * data_script
     * Original_data
     * Processed_Dataset
-* [Predict_h5file :](./Graphene_DeepLearning/) (This folder contain all Deep neural netowkr models we have trained)
+* [Predict_h5file :](q145492675/GAN_Graphene/) (This folder contain all Deep neural netowkr models we have trained)
     * h5_file.zip
-* [Script :](./GAN_Graphene/Script)  (This folder contain all scripts for GAN algorithm we use)
+* [Script :](q145492675/GAN_Graphene/Script)  (This folder contain all scripts for GAN algorithm we use)
     * Generate 
-        * [GrapGAN ](./GAN_Graphene/Script/Generate/GraGAN/) (This folder contains traditional machine learning algorithm' script: Graphene_SVR)
+        * [GraGAN ](q145492675/GAN_Graphene/Script/Generate/GraGAN/) (This folder contains traditional machine learning algorithm' script: Graphene_SVR)
         
 ## Usage:
 * Clone the whole repo into your local address.
