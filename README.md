@@ -47,7 +47,7 @@
     * Processed_Dataset
 * [Predict_h5file :](q145492675/GAN_Graphene/) (This folder contain all Deep neural netowkr models we have trained)
     * h5_file.zip
-* [Script :](q145492675/GAN_Graphene/Script)  (This folder contain all scripts for GAN algorithm we use)
+* [Script :](https://github.com/q145492675/GAN_Graphene/tree/master/Script/Generate/GraGAN)  (This folder contain all scripts for GAN algorithm we use)
     * Generate 
         * [GraGAN ](q145492675/GAN_Graphene/Script/Generate/GraGAN/) (This folder contains traditional machine learning algorithm' script: Graphene_SVR)
         
