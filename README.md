@@ -61,4 +61,4 @@
 
 ## Result:
 Setting 4by4 and 5by5 data as an example, the training process toward testing data is shown as below `training single Graphene size data's performance`
-![](https://github.com/jianlin-cheng/DeepGraphene/blob/master/Image/image3.jpg)
+![](https://github.com/q145492675/GAN_Graphene/blob/master/images/result.png)
