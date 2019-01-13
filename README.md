@@ -45,11 +45,11 @@
     * data_script
     * Original_data
     * Processed_Dataset
-* [Predict_h5file :](./Graphene_DeepLearning/) (This folder contain all Deep neural netowkr models we have trained [except Graphene_SVR])
+* [Predict_h5file :](./Graphene_DeepLearning/) (This folder contain all Deep neural netowkr models we have trained)
     * h5_file.zip
-* [Script :](./Graphene_DeepLearning/Script)  (This folder contain all scripts we use)
+* [Script :](./GAN_Graphene/Script)  (This folder contain all scripts for GAN algorithm we use)
     * Generate 
-        * [GrapGAN ](./Graphene_DeepLearning/Script/Predict/Graphene_SVR) (This folder contains traditional machine learning algorithm' script: Graphene_SVR)
+        * [GrapGAN ](./GAN_Graphene/Script/Generate/GraGAN/) (This folder contains traditional machine learning algorithm' script: Graphene_SVR)
         
 ## Usage:
 * Clone the whole repo into your local address.
