@@ -14,7 +14,9 @@
 ## Brief workflow : <br/>
 **How to describe Graphene supercell structure:** ![](https://github.com/jianlin-cheng/DeepGraphene/blob/master/Image/image1.png)
  <br/> <br/>
-**The workflow chart (Grapehen-GAN)** ![](https://github.com/jianlin-cheng/DeepGraphene/blob/master/Image/image2.png)
+**How to discretize Graphene Band-gap value:** ![](https://github.com/jianlin-cheng/DeepGraphene/blob/master/Image/image1.png)
+ <br/> <br/> 
+**The workflow chart (GraGAN)** ![](https://github.com/jianlin-cheng/DeepGraphene/blob/master/Image/image2.png)
 
 
 ## Requirement:
@@ -30,13 +32,12 @@
 * [Predict_h5file :](./Graphene_DeepLearning/) (This folder contain all Deep neural netowkr models we have trained [except Graphene_SVR])
     * h5_file.zip
 * [Script :](./Graphene_DeepLearning/Script)  (This folder contain all scripts we use)
-    * Predict 
-        * [DeepGraphene ](./Graphene_DeepLearning/Script/Predict/DeepGraphene)  (This folder contains Deep Neural Network algorithms' script: VCN, RCN, CCN)
-        * [Graphene_SVR ](./Graphene_DeepLearning/Script/Predict/Graphene_SVR) (This folder contains traditional machine learning algorithm' script: Graphene_SVR)
+    * Generate 
+        * [GrapGAN ](./Graphene_DeepLearning/Script/Predict/Graphene_SVR) (This folder contains traditional machine learning algorithm' script: Graphene_SVR)
         
 ## Usage:
 * Clone the whole repo into your local address.
-* If you want to train DeepGraphene Neural netowrk. Go into [Script folader](./Graphene_DeepLearning/Script/Predict/DeepGraphene) , click [Master.py](./Graphene_DeepLearning/Script/Predict/DeepGraphene/Master.py) . The `line 23` to `line 29` You can set which algorithm you want to choice: `VCN`, `RCN` or `CCN`, if you select one, please annotate other algorithms. 
+* If you want to train GraGAN. Go into [Script folader](./Graphene_DeepLearning/Script/Predict/DeepGraphene) , click [Master.py](./Graphene_DeepLearning/Script/Predict/DeepGraphene/Master.py) . If you want to trained GraGAN-4by4 (Predict 4by4 size of Graphene structure). You need to go to `line 23` to `line 29` You can set which algorithm you want to choice: `VCN`, `RCN` or `CCN`, if you select one, please annotate other algorithms. 
     * Meanwhile you can set the epoch you want to train and whether you need to use `Transfer Learning` toward the problem, transfer learning is good at `single size training problem`, if you want to do that. Set `VCN` as an example, please go to `line 45` to anti-annotate this line and annotate `line 46` too. 
     * This Script is `Training all graphene data together` (4by4, 5by5, 6by6 data together) and the testing data are randomly selected from these data, each size have 1000 test data. The performance of predicting test data will show in the `console window` after you have trained this model.
     * Once your DeepGraphene algorithm's training process is finished, this model will preserve in this [folder](./Graphene_DeepLearning/Predict_h5file) and named as `total_TF_'algorithm you choice'.h5` (with transfer learning) or `total_Non-TF_'algorithm you choice'.h5`  (without transfer learning) automatically.   
