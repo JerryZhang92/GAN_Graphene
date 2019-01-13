@@ -12,6 +12,9 @@
  <br/><br/>
 **Data distribution (4by4 and 5by5 data):** ![](https://github.com/q145492675/GAN_Graphene/blob/master/images/data_distribution.png) <br/> <br/>
 *   DeepGraphene is an interdiscipline research that implemented Machine Learning methods toward the bandgap values prediction problem. It described different type of Graphene supercell structure into 2-D matrix, them we use these data to trained GraGAN. Thus we can predict graphene supercells structure based on its band-gap values.  
+ <br/>
+**GraGAN project purpose :** ![](https://github.com/q145492675/GAN_Graphene/blob/master/images/purpose.png) <br/> 
+*   We can created various high quality of Graphene supercell structures acoording to the band-gap value we want to create. The GraGAN create the 2-D matrix which represented Graphene structure. We can do the data processing operation and convert this matrix into real matrix supercell structure.  
 
 ## Brief workflow : <br/>
 **How to describe Graphene supercell structure:** ![](https://github.com/jianlin-cheng/DeepGraphene/blob/master/Image/image1.png)
