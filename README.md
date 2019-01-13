@@ -25,11 +25,11 @@
 
 ## GraGAN algorithm workflow : <br/>
 *   GraGAN is combined with two different neural network model: `Discriminator ` and `Generator`. `Discriminator` used to verify whether the input data is real or fake while which label it should be. `Generator` used to create fake data which has high quality and has the similiar data distribution as the training data.
-<br/>
+<br/> <br/> 
 **Discriminator Structure:** ![](https://github.com/q145492675/GAN_Graphene/blob/master/images/discriminator.png)
-<br/> 
+<br/> <br/> 
 **Gnerator Structure:** ![](https://github.com/q145492675/GAN_Graphene/blob/master/images/generator.png)
-<br/> 
+<br/> <br/> 
 **GraGAN training iteration operation:** ![](https://github.com/q145492675/GAN_Graphene/blob/master/images/GAN_iteration.png) 
 *   The first step will train the parameter of `Discriminator`, the second step will train the parameter of `Generator`. 
 *   These two step will make loop iteration for many time until we get optimum result.
